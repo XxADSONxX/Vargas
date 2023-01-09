@@ -185,3 +185,8 @@ footer h3{
 color: #fff;
 font-size: 1rem;
 }
+
+
+@media (min-width: 600px) {
+
+}
