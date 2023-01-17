@@ -205,6 +205,10 @@ footer h3 {
         /* right: 50%; */
         position: relative;
     }
+    ul li{
+    align-items: center;
+    display: grid;
+    }
 
     .menu1 {
         display: none;
@@ -242,14 +246,14 @@ footer h3 {
     }
 
     nav a {
-        padding: 1rem 0;
+        padding: 1rem .5re;
         margin: 0 1rem;
     }
     .chamada1{
-        top: 307px;
+        top: 200px;
     }
     .btn1{
-        top: 73%;
+        top: 60%;
     }
     .quem_somos{
         font-size: 30px;
