@@ -4,9 +4,12 @@ body {
     background: linear-gradient(161.28deg, #0E1259 4.72%, #3C45E8 97.73%);
     font-family: Open Sans;
     width: 100%;
+}
 
+a {
 
-
+    text-decoration: none;
+    color: #fff;
 }
 
 ul {
@@ -15,7 +18,7 @@ ul {
 }
 
 ul li {
-    
+
     color: white;
     font-family: Open Sans;
     font-size: 25px;
@@ -37,16 +40,9 @@ nav {
 }
 
 nav img {
-    height: 241.23809814453125px;
-    max-width: 374px;
-    width: 100%;
     left: 17px;
-    top: -8.6190185546875px;
+    position: relative;
 
-
-}
-
-.logo {
 }
 
 .menu1 {
@@ -57,14 +53,14 @@ nav img {
 
 .bg_principal {
     background-image: url('./img/02.jpg');
-   
     max-height: 827px;
     max-width: 1600px;
     height: 100%;
     width: 100%;
     position: absolute;
 }
-.btn_mobile{
+
+.btn_mobile {
     display: none;
 }
 
@@ -153,7 +149,8 @@ nav img {
     background-image: url('./img/bg2.jpg');
     position: absolute;
     width: 100%;
-    top: 1300px;/* 
+    top: 1300px;
+    /* 
     max-height: 843px; */
     height: 100%;
 }
@@ -181,42 +178,81 @@ footer {
     position: absolute;
     text-align: center;
 }
-footer h3{
-color: #fff;
-font-size: 1rem;
+
+footer h3 {
+    color: #fff;
+    font-size: 1rem;
 }
 
 
 @media (max-width: 550px) {
-.bg_principal{
-    background-image: url('/img/mbile.jpg');
-    width: 100%;
+    .bg_principal {
+        background-image: url('/img/mbile.jpg');
+        width: 100%;
 
-}
-.logo{
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   bottom: 10%;
-}
-.menu1{
-    display: none;
-}
-.bg_2{
-    background-image: url(/img/mobile.jpg);
-}
-.btn_mobile{
-    display: block;
-    width: 50px;
-    height: 50px;
-    margin-right: 2rem;
-    margin-top: 2rem;
-    border-radius: 1em;
-    background-color: #FBEF34;
-    cursor: pointer;
-}
-.btn_mobile:hover{
-    background-color: #fff;
-}
+    }
 
+    nav img {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    nav .logo {
+        display: flex;
+        justify-content: center;
+        /* right: 50%; */
+        position: relative;
+    }
+
+    .menu1 {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        height: calc(100vh - 70px);
+        z-index: 1000;
+    }
+
+    .bg_2 {
+        background-image: url(/img/mobile.jpg);
+    }
+
+    .btn_mobile {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        border-radius: 1em;
+        background-color: #FBEF34;
+        cursor: pointer;
+    }
+
+    .btn_mobile:hover {
+        background-color: #fff;
+    }
+
+    #nav.active .menu1 {
+        display: GRID;
+        BACKGROUND-COLOR: gray;
+        text-align: center;
+    }
+
+    nav a {
+        padding: 1rem 0;
+        margin: 0 1rem;
+    }
+    .chamada1{
+        top: 307px;
+    }
+    .btn1{
+        top: 73%;
+    }
+    .quem_somos{
+        font-size: 30px;
+        top: 20%;
+    }
 }
