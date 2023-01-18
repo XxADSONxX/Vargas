@@ -256,9 +256,10 @@ footer h3 {
     }
     .chamada1{
         top: 200px;
+        font-size: 35px;
     }
     .btn1{
-        top: 60%;
+        top: 80%;
     }
     .quem_somos{
         font-size: 30px;
