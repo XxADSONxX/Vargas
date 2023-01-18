@@ -206,8 +206,10 @@ footer h3 {
         position: relative;
     }
     ul li{
-    align-items: center;
-    display: grid;
+        align-items: center;
+        display: grid;
+        background-color: darkgray;
+        width: 460px;
     }
 
     .menu1 {
@@ -219,9 +221,12 @@ footer h3 {
         height: calc(100vh - 70px);
         z-index: 1000;
     }
+    .menu1:hover{
+        background-color: darkgray;
+    }
 
     .bg_2 {
-        background-image: url(/img/mobile.jpg);
+        background-image: url(/img/mobile1.jpg);
     }
 
     .btn_mobile {
@@ -258,5 +263,18 @@ footer h3 {
     .quem_somos{
         font-size: 30px;
         top: 20%;
+    }
+    footer{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        top: 100px;
+        position: relative;
+    }
+    footer h3{
+        top: 50px;
+    display: grid;
+    justify-items: center;
+    position: relative;
     }
 }
