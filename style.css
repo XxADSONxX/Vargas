@@ -179,7 +179,8 @@ footer {
     text-align: center;
 }
 
-footer h3 {
+footer p {
+    
     color: #fff;
     font-size: 1rem;
 }
@@ -247,6 +248,7 @@ footer h3 {
 
     .bg_2 {
         background-image: url(/img/mobile1.jpg);
+        top: 1040px;
     }
 
     .btn_mobile {
@@ -279,6 +281,18 @@ footer h3 {
         top: 200px;
         font-size: 35px;
     }
+    .retangulo_chamada{
+        top: 500px;
+    }
+    .faixa{
+        top: 266px;
+    }
+    .faixa_2{
+        top: 757px;
+    }
+    .faixa_3{
+        top:1211px
+    }
     .btn1{
         top: 80%;
     }
@@ -287,11 +301,10 @@ footer h3 {
         top: 20%;
     }
     footer{
-        display: grid;
+        display: flex;
         align-items: center;
-        justify-items: center;
-        top: 100px;
+        justify-content: space-around;
+        top: 1235px;
         position: relative;
     }
-   
 }
