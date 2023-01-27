@@ -248,7 +248,7 @@ footer p {
 
     .bg_2 {
         background-image: url(/img/mobile1.jpg);
-        top: 1040px;
+        top: 1078px;
     }
 
     .btn_mobile {
@@ -278,7 +278,7 @@ footer p {
         color: #000;
     }
     .chamada1{
-        top: 200px;
+        top: 100px;
         font-size: 35px;
     }
     .retangulo_chamada{
@@ -301,9 +301,7 @@ footer p {
         top: 20%;
     }
     footer{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+        display: block;
         top: 1235px;
         position: relative;
     }
