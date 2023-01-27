@@ -253,7 +253,7 @@ footer p {
 
     .bg_2 {
         background-image: url(/img/mobile1.jpg);
-        top: 1078px;
+        top: 1201px;
     }
 
     .btn_mobile {
@@ -297,15 +297,15 @@ footer p {
     }
 
     .faixa_2 {
-        top: 757px;
+        top: 917px;
     }
 
     .faixa_3 {
-        top: 1544px;
+        top: 1627px;
     }
 
     .btn1 {
-        top: 80%;
+        top: 60%;
     }
 
     .quem_somos {
@@ -315,7 +315,7 @@ footer p {
 
     footer {
         display: block;
-        top: 1550px;
+        top: 1622px;
         position: relative;
         padding: 1rem;
     }
