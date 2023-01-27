@@ -180,28 +180,31 @@ footer {
 }
 
 footer p {
-    
+
     color: #fff;
     font-size: 1rem;
 }
 
 @media (max-width: 1600px) {
-.bg_principal{
-    background-image: url('/img/bgprincipal_telaxtra.jpg');
-    max-width: 1600px;
-    width: 100%;
-}
-.faixa{
-    max-width: 1600px;
-    width: 100%;
-}
-.retangulo_chamada {
-    background-image: url('/img/chamada.jpg');
-    max-width: 1600px;
-    width: 100%;
-}
+    .bg_principal {
+        background-image: url('/img/bgprincipal_telaxtra.jpg');
+        max-width: 1600px;
+        width: 100%;
+    }
+
+    .faixa {
+        max-width: 1600px;
+        width: 100%;
+    }
+
+    .retangulo_chamada {
+        background-image: url('/img/chamada.jpg');
+        max-width: 1600px;
+        width: 100%;
+    }
 
 }
+
 @media (max-width: 550px) {
     .bg_principal {
         background-image: url('/img/mbile.jpg');
@@ -222,14 +225,15 @@ footer p {
         /* right: 50%; */
         position: relative;
     }
-    ul li{
+
+    ul li {
         align-items: center;
         display: grid;
         background-color: darkgray;
         width: 350px;
         height: 100px;
         margin-top: 50´x;
-        
+
     }
 
     .menu1 {
@@ -242,7 +246,8 @@ footer p {
         z-index: 1000;
         color: #000;
     }
-    .menu1:hover{
+
+    .menu1:hover {
         background-color: darkgray;
     }
 
@@ -268,8 +273,8 @@ footer p {
 
     #nav.active .menu1 {
         display: GRID;
-    BACKGROUND-COLOR: #FBEF34;
-    text-align: center;
+        BACKGROUND-COLOR: #FBEF34;
+        text-align: center;
     }
 
     nav a {
@@ -277,36 +282,45 @@ footer p {
         margin: 0 1rem;
         color: #000;
     }
-    .chamada1{
-        top: 100px;
-        font-size: 35px;
+
+    .chamada1 {
+        top: 87px;
+        font-size: 33px;
     }
-    .retangulo_chamada{
-        top: 500px;
+
+    .retangulo_chamada {
+        top: 660px;
     }
-    .faixa{
-        top: 266px;
+
+    .faixa {
+        top: 424px;
     }
-    .faixa_2{
+
+    .faixa_2 {
         top: 757px;
     }
-    .faixa_3{
-        top:1544px;
+
+    .faixa_3 {
+        top: 1544px;
     }
-    .btn1{
+
+    .btn1 {
         top: 80%;
     }
-    .quem_somos{
+
+    .quem_somos {
         font-size: 30px;
         top: 20%;
     }
-    footer{
+
+    footer {
         display: block;
         top: 1550px;
         position: relative;
         padding: 1rem;
     }
-    footer p{
+
+    footer p {
         padding: 1rem;
     }
 }
