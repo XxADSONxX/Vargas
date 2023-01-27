@@ -291,7 +291,7 @@ footer p {
         top: 757px;
     }
     .faixa_3{
-        top:1211px
+        top:1544px;
     }
     .btn1{
         top: 80%;
@@ -302,7 +302,11 @@ footer p {
     }
     footer{
         display: block;
-        top: 1493px;
+        top: 1550px;
         position: relative;
+        padding: 1rem;
+    }
+    footer p{
+        padding: 1rem;
     }
 }
