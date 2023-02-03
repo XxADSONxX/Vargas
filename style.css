@@ -265,10 +265,10 @@ footer p {
         display: block;
     }
     .sub_hedline{
-        max-width: 550px;
+        max-width: 440px;
         width: 100%;
         top: 300px;
-        font-size: 25px;
+        font-size: 23px;
         font-weight: 500;
     }
     #nav.active .menu1 {
@@ -310,7 +310,7 @@ footer p {
     }
 
     .quem_somos {
-        font-size: 30px;
+        font-size: 25px;
         top: 20%;
     }
 
