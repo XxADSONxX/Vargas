@@ -1,6 +1,6 @@
 body {
-    font-size: 1.5rem;
     max-width: 1600px;
+    font-size: 1.5rem;
     background: linear-gradient(161.28deg, #0E1259 4.72%, #3C45E8 97.73%);
     font-family: Open Sans;
     width: 100%;
@@ -44,6 +44,7 @@ nav img {
     position: relative;
 
 }
+
 
 .menu1 {
     display: flex;
@@ -168,13 +169,13 @@ nav img {
 .faixa_3 {
     position: relative;
     width: 100%;
-    top: 1970px;
+    top: 1786px;
     Height: 44px;
 }
 
 footer {
     width: 100%;
-    top: 2116px;
+    top: 2240px;
     position: absolute;
     text-align: center;
 }
@@ -198,10 +199,11 @@ footer p {
     }
 
     .retangulo_chamada {
-        background-image: url('/img/chamada.jpg');
+        background-image: url('/img/');
         max-width: 1600px;
         width: 100%;
     }
+
 
 }
 
@@ -240,15 +242,16 @@ footer p {
         display: none;
         position: absolute;
         width: 100%;
-        top: 70px;
+        top: 80px;
         right: 0px;
-        height: calc(100vh - 70px);
+        height: calc(100vh - 80px);
         z-index: 1000;
         color: #000;
     }
 
     .menu1:hover {
         background-color: darkgray;
+
     }
 
     .bg_2 {
@@ -262,24 +265,29 @@ footer p {
         height: 50px;
         margin-right: 2rem;
         margin-top: 2rem;
-        border-radius: 1em;
-        background-color: #FBEF34;
         cursor: pointer;
     }
 
+    .btn_mobile img {
+        width: 50px;
+        height: 50px;
+        display: block;
+    }
+
+    /* 
     .btn_mobile:hover {
         background-color: #fff;
-    }
+    } */
 
     #nav.active .menu1 {
         display: GRID;
-        BACKGROUND-COLOR: #FBEF34;
+        BACKGROUND-COLOR: #44443e;
         text-align: center;
     }
 
     nav a {
-        padding: 1rem .5rem;
-        margin: 0 1rem;
+        padding: 1rem 0.5rem;
+        margin: 1rem 0 0 0;
         color: #000;
     }
 
