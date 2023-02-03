@@ -1,30 +1,60 @@
 body {
     background-color: #0050C3;
 }
-a{
-    text-decoration: none;
+
+a {
     color: white;
-}
-li{
-    list-style: none;
     cursor: pointer;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li {
+
+    color: white;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+
+}
+
+li {
+    cursor: pointer;
+    list-style: none;
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav img {
+    left: 17px;
+    position: relative;
+
+}
+
+.menu1 {
+    display: flex;
+    gap: 1rem;
+    right: 4%;
+
+    top: 10px;
+    position: relative;
+
 }
 
 .btn_mobile {
     display: none;
 }
-.menu {
-    display: flex;
-    justify-content: space-between;
-}
 
-.menu1 {
-    display: flex;
-    gap: 1em;
-    justify-content: end;
-    position: relative;
-    right: 1%;
-}
+
 
 .principal {
 
@@ -43,8 +73,82 @@ li{
     max-width: 500px;
     width: 100%;
 }
-.descricao{
+
+.descricao {
+    display: flex;
+    justify-content: center;
     max-width: 700px;
+    text-align: center;
     width: 100%;
-    
+
+}
+
+@media (max-width: 550px) {
+
+    nav img {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    nav .logo {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    ul li {
+        align-items: center;
+        display: grid;
+        background-color: #FBEF34;
+        width: 350px;
+        height: 100px;
+        margin-top: 50px;
+
+    }
+
+    .menu1 {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        right: 0px;
+        height: calc(50vh - 60px);
+        z-index: 1000;
+        color: #000;
+    }
+
+    .btn_mobile {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        cursor: pointer;
+    }
+
+    .btn_mobile img {
+        width: 50px;
+        height: 50px;
+        display: block;
+    }
+
+    #nav.active .menu1 {
+        display: GRID;
+        BACKGROUND-COLOR: #0050C3;
+        text-align: center;
+    }
+
+    nav a {
+        padding: 1rem 0.5rem;
+        margin: 1rem 0 0 0;
+        color: #000;
+    }
+
+    .principal {
+        top: 150px;
+        position: absolute;
+        justify-content: center;
+    }
 }
