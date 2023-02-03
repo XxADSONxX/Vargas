@@ -231,10 +231,10 @@ footer p {
     ul li {
         align-items: center;
         display: grid;
-        background-color: darkgray;
+        background-color: #FBEF34;
         width: 350px;
         height: 100px;
-        margin-top: 50´x;
+        margin-top: 50x;
 
     }
 
@@ -281,7 +281,7 @@ footer p {
 
     #nav.active .menu1 {
         display: GRID;
-        BACKGROUND-COLOR: #44443e;
+        BACKGROUND-COLOR: #0050C3;
         text-align: center;
     }
 
