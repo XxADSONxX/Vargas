@@ -49,6 +49,9 @@ nav img {
 .menu1 {
     display: flex;
     gap: 1rem;
+    right: 4%;
+    top: 10px;
+    position: relative;
 
 }
 
@@ -181,32 +184,11 @@ footer {
 }
 
 footer p {
-
+    position: relative;
     color: #fff;
     font-size: 1rem;
+    margin-bottom: 2%;
 }
-
-@media (max-width: 1600px) {
-    .bg_principal {
-        background-image: url('/img/bgprincipal_telaxtra.jpg');
-        max-width: 1600px;
-        width: 100%;
-    }
-
-    .faixa {
-        max-width: 1600px;
-        width: 100%;
-    }
-
-    .retangulo_chamada {
-        background-image: url('/img/');
-        max-width: 1600px;
-        width: 100%;
-    }
-
-
-}
-
 @media (max-width: 550px) {
     .bg_principal {
         background-image: url('/img/mbile.jpg');
@@ -224,7 +206,6 @@ footer p {
     nav .logo {
         display: flex;
         justify-content: center;
-        /* right: 50%; */
         position: relative;
     }
 
