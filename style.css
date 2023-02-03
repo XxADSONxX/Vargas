@@ -265,7 +265,9 @@ footer p {
         display: block;
     }
     .sub_hedline{
-        top: 250px;
+        top: 300px;
+        font-size: 25px;
+        font-weight: 500;
     }
     #nav.active .menu1 {
         display: GRID;
@@ -289,7 +291,7 @@ footer p {
     }
 
     .faixa {
-        top: 494px;
+        top: 500px;
     }
 
     .faixa_2 {
@@ -302,7 +304,7 @@ footer p {
 
 
     .btn1 {
-        top: 60%;
+        top: 70%;
     }
 
     .quem_somos {
