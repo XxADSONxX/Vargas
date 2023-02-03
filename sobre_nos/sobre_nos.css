@@ -1,5 +1,6 @@
 body {
     background-image: url('/img/bg_sobre1.jpg');
+    font-family: 'open sans';
 }
 
 a {
@@ -89,6 +90,31 @@ nav img {
     font-size: 27px;
 }
 
+.btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.Btn_insta {
+    top: 200px;
+    width: 300px;
+    height: 50px;
+    border-radius: 0.5rem;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: #FBEF34;
+    box-sizing: border-box;
+    position: relative;
+    align-items: center;
+}
+
+.Btn_insta img {
+    width: 25px;
+}
+
 @media (max-width: 550px) {
     body {
         background-image: url('/img/MOBILE_SOBRE.jpg');
@@ -165,9 +191,20 @@ nav img {
     }
 
     .descricao {
-        font-size: 25px;
+        font-size: 19px;
         position: relative;
+        justify-content: center;
         text-align: center;
+    }
+
+    .Btn_insta {
+        top: 320px;
         width: 100%;
+        font-size: 16px;
+        padding: 0.5em;
+        border: none;
+    }
+    .Btn_insta img{
+        margin-right: 10px;
     }
 }
