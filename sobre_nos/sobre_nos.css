@@ -1,5 +1,5 @@
 body {
-    background-color: #0050C3;
+    background-image: url('/img/bg2.jpg');
 }
 
 a {
@@ -61,10 +61,7 @@ nav img {
 }
 
 .principal {
-    background-image: url('/img/bg2.jpg');
-    max-width: 1280px;
-    width: 100%;
-    height: 843px;
+
     display: grid;
     justify-items: center;
     gap: 1em;
@@ -93,6 +90,11 @@ nav img {
 }
 
 @media (max-width: 550px) {
+    body {
+        background-image: url('/img/mobile.jpg');
+        width: 100%;
+        height: 100vh;
+    }
 
     nav img {
         display: flex;
@@ -161,8 +163,10 @@ nav img {
         position: absolute;
         justify-content: center;
     }
-    .descricao{
-        top: 10%;
-        font-size: 25px;
+
+    .descricao {
+        font-size: 20px;
+        position: relative;
+        width: 100%;
     }
 }
