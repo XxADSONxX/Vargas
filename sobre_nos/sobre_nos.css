@@ -109,6 +109,7 @@ nav img {
     box-sizing: border-box;
     position: relative;
     align-items: center;
+    border: none;
 }
 
 .Btn_insta img {
@@ -136,13 +137,14 @@ nav img {
     }
 
     ul li {
+        flex-direction: column;
         align-items: center;
-        display: grid;
+        display: flex;
         background-color: #FBEF34;
-        width: 350px;
-        height: 100px;
-        margin-top: 50px;
-
+        width: 15em;
+        justify-content: center;
+        height: auto;
+        border-radius: 0.3em;
     }
 
     .menu1 {
@@ -184,8 +186,8 @@ nav img {
     }
 
     .principal {
-
-        height: 843px;
+        flex-direction: column;
+        height: auto;
         position: absolute;
         justify-content: center;
     }
@@ -195,16 +197,14 @@ nav img {
         position: relative;
         justify-content: center;
         text-align: center;
+        width: auto;
     }
 
     .Btn_insta {
         top: 320px;
-        width: 100%;
-        font-size: 16px;
-        padding: 0.5em;
-        border: none;
-    }
-    .Btn_insta img{
-        margin-right: 10px;
+        width: 15em;
+        font-size: 20px;
+        gap: 1em;
+        justify-content: space-evenly;
     }
 }
