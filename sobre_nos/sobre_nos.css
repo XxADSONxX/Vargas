@@ -186,6 +186,7 @@ nav img {
     }
 
     .principal {
+        display: flex;
         flex-direction: column;
         height: auto;
         position: absolute;
@@ -199,12 +200,15 @@ nav img {
         text-align: center;
         width: auto;
     }
-
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
     .Btn_insta {
-        top: 320px;
-        width: 15em;
+        flex-direction: row;
         font-size: 20px;
         gap: 1em;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 }
