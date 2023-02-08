@@ -264,6 +264,12 @@ footer p {
         height: 50px;
         display: block;
     }
+    
+    #nav.active .menu1 {
+        display: GRID;
+        BACKGROUND-COLOR: #0050C3;
+        text-align: center;
+    }
     .sub_hedline{
         max-width: 440px;
         width: 100%;
@@ -271,12 +277,6 @@ footer p {
         font-size: 23px;
         font-weight: 500;
     }
-    #nav.active .menu1 {
-        display: GRID;
-        BACKGROUND-COLOR: #0050C3;
-        text-align: center;
-    }
-
     nav a {
         padding: 1rem 0.5rem;
         margin: 1rem 0 0 0;

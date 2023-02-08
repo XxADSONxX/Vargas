@@ -1,0 +1,130 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li {
+    color: white;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+li {
+    cursor: pointer;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav img {
+    left: 17px;
+    position: relative;
+}
+
+
+.menu1 {
+    display: flex;
+    gap: 1rem;
+    right: 4%;
+    top: 10px;
+    position: relative;
+}
+
+.btn_mobile {
+    display: none;
+}
+
+
+@media screen and (min-width: 500px) {
+
+    body {
+        background-image: url('/img/servicos_mobile1.jpg');
+        width: auto;
+    }
+
+    .servicos {
+        justify-content: center;
+        width: auto;
+    }
+
+    nav img {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    nav .logo {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    ul li {
+        align-items: center;
+        display: grid;
+        background-color: #FBEF34;
+        width: 15em;
+        border-radius: 0.3em;
+        height: 30%;
+
+    }
+
+    .menu1 {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 80px;
+        right: 0px;
+        height: calc(100vh - 80px);
+        z-index: 1000;
+        color: #000;
+    }
+
+    .menu1:hover {
+        background-color: darkgray;
+
+    }
+
+    .btn_mobile {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin-right: 2rem;
+        margin-top: 2rem;
+        cursor: pointer;
+    }
+
+    .btn_mobile img {
+        width: 50px;
+        height: 50px;
+        display: block;
+    }
+
+    #nav.active .menu1 {
+        display: GRID;
+        BACKGROUND-COLOR: #0050C3;
+        text-align: center;
+    }
+    .servicos{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .servicos p{
+        color: #fff;
+        width: 50%;
+    }
+    }
