@@ -52,7 +52,7 @@ nav img {
     right: 4%;
     top: 10px;
     position: relative;
-
+    text-transform: uppercase;
 }
 
 .bg_principal {

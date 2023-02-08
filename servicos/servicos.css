@@ -89,11 +89,7 @@ nav img {
         height: calc(100vh - 80px);
         z-index: 1000;
         color: #000;
-    }
-
-    .menu1:hover {
-        background-color: darkgray;
-
+        text-transform: uppercase;
     }
 
     .btn_mobile {

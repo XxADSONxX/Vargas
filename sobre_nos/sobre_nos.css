@@ -47,7 +47,7 @@ nav img {
     right: 4%;
     align-items: center;
     position: relative;
-
+    text-transform: uppercase;
 }
 
 .btn_mobile {
