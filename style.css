@@ -98,6 +98,8 @@ nav img {
     position: absolute;
     font-size: 30px;
     top: 356px;
+    background-color: #0050C3;
+    border-radius: 1.5em;
 }
 
 .btn1 {
