@@ -119,8 +119,13 @@ nav img {
         text-align: center;
         justify-content: center;
     }
+    .servicos img{
+        border: #0050C3 3px solid;
+        border-radius: 2em;
+    }
     .servicos p{
         color: #fff;
         padding: 1em;
+        background-color: #0050C3;
     }
     }
