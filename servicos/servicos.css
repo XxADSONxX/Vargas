@@ -45,7 +45,7 @@ nav img {
 }
 
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
 
     body {
         background-image: url('/img/servicos_mobile1.jpg');
