@@ -88,7 +88,8 @@ nav img {
     text-align: center;
     color: #FBEF34;
 }
-.sub_hedline{
+
+.sub_hedline {
     color: #fff;
     max-height: 204px;
     max-width: 700px;
@@ -201,9 +202,10 @@ footer p {
     font-size: 1rem;
     margin-bottom: 2%;
 }
+
 @media (max-width: 550px) {
     .bg_principal {
-        background-image: url('/img/mbile.jpg');
+        background-image: url('/img/home_mobile.jpg');
         width: 100%;
 
     }
@@ -236,7 +238,7 @@ footer p {
         position: absolute;
         width: 100%;
         top: 80px;
-        right: 0px;
+        padding: 5em;
         height: calc(100vh - 80px);
         z-index: 1000;
         color: #000;
@@ -266,19 +268,21 @@ footer p {
         height: 50px;
         display: block;
     }
-    
+
     #nav.active .menu1 {
         display: GRID;
         BACKGROUND-COLOR: #0050C3;
         text-align: center;
     }
-    .sub_hedline{
+
+    .sub_hedline {
         max-width: 440px;
         width: 100%;
         top: 300px;
         font-size: 23px;
         font-weight: 500;
     }
+
     nav a {
         padding: 1rem 0.5rem;
         margin: 1rem 0 0 0;
@@ -286,7 +290,8 @@ footer p {
     }
 
     .chamada1 {
-        top: 87px;
+        padding: 1em;
+        top: 10px;
         font-size: 33px;
     }
 
@@ -314,6 +319,7 @@ footer p {
     .quem_somos {
         font-size: 25px;
         top: 20%;
+        padding: 2em;
     }
 
     footer {
