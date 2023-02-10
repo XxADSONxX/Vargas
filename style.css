@@ -175,17 +175,20 @@ nav img {
 .quem_somos {
     text-align: center;
     font-size: 3rem;
-    top: 10%;
+    top: 2%;
     display: grid;
     position: absolute;
     justify-items: center;
+    padding: 1em;
+    background-color: #0050C3;
+    border-radius: 2em;
     color: #fff;
 }
 
 .faixa_3 {
     position: relative;
     width: 100%;
-    top: 1786px;
+    top: 1875px;
     Height: 44px;
 }
 
