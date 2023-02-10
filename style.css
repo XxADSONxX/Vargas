@@ -280,6 +280,8 @@ footer p {
         width: 100%;
         top: 300px;
         font-size: 23px;
+        width: auto;
+        height: auto;
         font-weight: 500;
     }
 
@@ -307,9 +309,14 @@ footer p {
         top: 987px;
     }
 
+
     .faixa_3 {
-        top: 1735px;
+        position: absolute;
+        width: 100%;
+        top: 1953px;
+        Height: 44px;
     }
+
 
 
     .btn1 {
@@ -321,6 +328,7 @@ footer p {
         top: 20%;
         padding: 2em;
         background-color: #0050C3;
+        border-radius: 3em;
     }
 
     footer {
