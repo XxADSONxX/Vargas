@@ -250,7 +250,7 @@ footer p {
     }
 
     .bg_2 {
-        background-image: url(/img/mobile1.jpg);
+        background-image: url(/img/mobile.jpg);
         top: 1201px;
     }
 
@@ -320,6 +320,7 @@ footer p {
         font-size: 25px;
         top: 20%;
         padding: 2em;
+        background-color: #0050C3;
     }
 
     footer {
